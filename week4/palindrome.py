@@ -4,9 +4,8 @@ def palindrome(s):
     start = -1
     palind = True
     for c in s:
-        print(c, s[start])
         if c != s[start]:            
-            return False
+            palind = False
         start = start - 1
     return palind
 
@@ -27,6 +26,18 @@ def palindrome3(s):
     sbackwards = s[::-1]
     return sbackwards == s
 
+
+# Version 4: compare letters from either end.
+# RETURN when you find a mismatch.
+def palindrome(s):
+    start = -1
+    for c in s:
+        if c != s[start]:            
+            return False
+        start = start - 1
+    return True
+
+
 # Example of how to use the function.
 yourword = input("word: ")
 if palindrome(yourword) == True:
@@ -44,3 +55,4 @@ for w in listofwords:
         howmanypalindromes += 1
 
 print(f"Of the {len(listofwords)} words, {howmanypalindromes} were palindromes")
+
