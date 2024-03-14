@@ -1,0 +1,1 @@
+[Here's a link to the completed Colab notebook for Class 8.2](https://colab.research.google.com/drive/1IqiuAVzl4NOapQyFfg2AMJdo_sgqeRsw?usp=sharing) where we did work on using Matplotlib and Plotly for maps.
