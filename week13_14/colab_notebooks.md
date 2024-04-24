@@ -1,0 +1,1 @@
+[Here's a link to the Colab notebook demonstrating different kinds of classifiers.](https://colab.research.google.com/drive/1NqjLNsBvVlck8C2artHImOOgH9SbTM7s?usp=sharing)
